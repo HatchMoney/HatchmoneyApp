@@ -2,7 +2,7 @@ deployment:
   staging:
     branch: master
     codedeploy:
-      HatchmoneyApp:
+      hatchengine:
         application_root: /
         region: eu-west-2
         revision_location:
