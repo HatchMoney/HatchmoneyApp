@@ -1,0 +1,15 @@
+deployment:
+  staging:
+    branch: master
+    codedeploy:
+      HatchmoneyApp:
+        application_root: /
+        region: eu-west-2
+        revision_location:
+          revision_type: S3
+          s3_location:
+            bucket: hatchengine-archive
+            key_pattern: HatchmoneyApp-{BRANCH}-{SHORT_COMMIT}
+        deployment_group: HatchengineApplicationGroup
+    
+    
