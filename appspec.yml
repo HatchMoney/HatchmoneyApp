@@ -23,7 +23,7 @@ os: linux
 #   "files" section altogether. A blank or incomplete "files" section
 #   may cause associated deployments to fail.
 files:
-  - source: /HatchmoneyApp-1.0-SNAPSHOT.war
+  - source: /target/HatchmoneyApp-1.0-SNAPSHOT.war
     destination: /home/ec2-user/staging/HatchmoneyApp-1.0-SNAPSHOT.war
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
 #   you can specify a "permissions" 
