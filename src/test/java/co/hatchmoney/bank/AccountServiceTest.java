@@ -33,6 +33,6 @@ public class AccountServiceTest extends TestCase {
         AccountService accountService = new AccountService();
         String balanceStr = accountService.getBalance();
 
-        assertTrue( balanceStr.replace(" ", "").contains("\"balance\":\"875.95\"") );
+        assertTrue( balanceStr.replace(" ", "").contains("\"balance\":\"333.95\"") );
     }
 }
