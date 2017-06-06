@@ -20,7 +20,7 @@ public class AccountService {
     }
 
     public String getBalance() {
-        String strDummyBalance = "{ \"balance\": \"875.95\" }";
+        String strDummyBalance = "{ \"balance\": \"333.95\" }";
         return getValidatedJsonString(strDummyBalance, true);
     }
 
