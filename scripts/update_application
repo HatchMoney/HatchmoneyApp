@@ -1,3 +1,4 @@
 set -e
+rm -rf /usr/share/tomcat7/webapps/HatchmoneyApp-1.0-SNAPSHOT
 rm -f /usr/share/tomcat7/webapps/HatchmoneyApp-1.0-SNAPSHOT.war
 cp /home/ec2-user/staging/target/HatchmoneyApp-1.0-SNAPSHOT.war /usr/share/tomcat7/webapps/HatchmoneyApp-1.0-SNAPSHOT.war
