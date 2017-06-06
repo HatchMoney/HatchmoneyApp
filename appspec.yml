@@ -75,15 +75,14 @@ hooks:
       timeout: 300
 # During the BeforeInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
-  BeforeInstall:
-    - location: scripts/update_application
-      timeout: 300
+#  BeforeInstall:
+#    - location: scripts/update_application
+#      timeout: 300
 # During the AfterInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
-#  AfterInstall:
-#    - location:     
-#      timeout: 
-#      runas:
+  AfterInstall:
+    - location: scripts/update_application
+      timeout: 300
 #    - location: 
 #      timeout:
 #      runas:
